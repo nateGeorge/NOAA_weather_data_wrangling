@@ -78,5 +78,5 @@ colnames(la.guardia.filled) <- new.colnames
 summary(la.guardia.filled)
 
 # export data
-fwrite(manhattan.filled, '/home/nate/github/NOAA_weather_data_wrangling/manhattan-data.R')
-fwrite(la.guardia.filled, '/home/nate/github/NOAA_weather_data_wrangling/laguardia-data.R')
+fwrite(manhattan.filled, '/home/nate/github/NOAA_weather_data_wrangling/manhattan-data.csv')
+fwrite(la.guardia.filled, '/home/nate/github/NOAA_weather_data_wrangling/laguardia-data.csv')
